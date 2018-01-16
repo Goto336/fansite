@@ -1,0 +1,87 @@
+   
+    @import url('https://fonts.googleapis.com/css?family=Doppio+One');
+        #banner{
+            width: 900px;
+            border-top: solid black 2px;
+            height: 200px;
+            background-image: url("http://playstationeu.i.lithium.com/t5/image/serverpage/image-id/1009204i9859C97E0104A75C/image-size/large?v=1.0&px=600");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: 50% 10%;
+            text-align: center;
+            margin: 0 auto;
+            border: solid 5px black;
+            border-radius: 10px;
+        }
+        #banner h1{
+            margin-top: 75px;
+            font-family: 'Doppio One', sans-serif;
+            color: lightblue;
+            text-decoration: underline;
+            opacity: 0.7;
+            text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+        }
+
+        body {
+            background-image: url("https://images7.alphacoders.com/594/594227.jpg");
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: 100%;
+            background-attachment: fixed;
+        }
+        #nav {
+            text-align: center;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+        #nav a {
+            padding-left: 20px;
+            color: #87CEEB;
+        }
+        #nav a: hover {
+            text-decoration: none;
+            color: #87CEEB;
+            text-decoration: underline;
+        }
+        #main {
+            width: 950px;
+            height: 630px;
+            font-family: 'Doppio One', sans-serif;
+            border: solid black 2px;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: darkgray;
+            opacity: 0.7;
+        }
+        hr{
+            border: solid black 2px;
+        }
+        #main p{
+
+        }
+        #footer {
+            width: 150px;
+            margin-left: auto;
+            margin-right: auto;
+            font-family: cursive;
+            color: DodgerBlue;
+            text-transform: uppercase;
+            border: solid;
+            padding-top: 1px;
+        }
+        .box {
+            width: 50%;
+        }
+        .imgLeft {
+            float: left;
+            margin-right: 15px;
+        }      
+        .imgRight {
+            float: right;
+            margin-left: 15px;
+        }
+        .imgCenter {
+            float: center;
+            margin-bottom; 
+        }
